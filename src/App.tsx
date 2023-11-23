@@ -2,11 +2,11 @@ import Item from './Item'
 
 const App = () => {
   return (
-    <div className="bg-[#ffffff] flex items-center flex-col h-screen">
+    <div className="bg-[#ffffff] flex flex-col h-screen pr-[-2rem]">
       <header className="bg-[#333] flex justify-center items-center w-[100%] py-[3rem]">
         <h1 className="text-[2.4rem] text-[#3f3f3f] text-white">Доповідь про Гарсіа Лорка</h1>
       </header>
-      <div className="text-center flex justify-center items-center flex-col p-[2rem]">
+      <div className="text-center flex justify-center items-center flex-col p-[2rem] ">
         <img
           src="https://znaj.ua/crops/1e1cd6/620x0/1/0/2018/07/05/2098-0.jpg"
           alt="Фотографія Гарсіа"
@@ -82,13 +82,11 @@ const App = () => {
           img="https://gdb.rferl.org/08de0000-0a00-0242-1759-08da4347075f_w408_r0_s.jpg"
         />
       </div>
-        <div className='w-[100%] ml-[4rem]'>
           <img
             src="https://gdb.rferl.org/08de0000-0a00-0242-1095-08da43469e59_w1200_r1.jpg"
             alt=""
-            className='mb-[1rem] rounded object-contain max-w-[300px] max-h-[250px]'
+            className='mb-[1rem] rounded object-contain max-w-[300px] max-h-[250px] ml-[2rem]'
           />
-        </div>
       <footer className='w-[100%] bg-[#333] py-[2rem] flex items-center justify-center mt-[2rem]'>
         <div className='text-center text-white'>
           <h1 className='borderB mb-[1.5rem]'>дякую за увагу!</h1>
